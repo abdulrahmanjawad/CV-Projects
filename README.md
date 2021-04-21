@@ -1,3 +1,3 @@
-# Computer-Vision-Projects-in-Python
+# Computer-Vision-Sparks
 
  - Object Detection in Images using YoloV3 model and OpenCV
