@@ -1,3 +1,3 @@
-# Computer-Vision-Sparks
+# Sparks
 
- - Object Detection in Images using YoloV3 model and OpenCV
+Object Detection in Images using YoloV3 model and OpenCV
