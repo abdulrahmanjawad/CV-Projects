@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Object Detection</title>
+      <link rel = "shortcut icon" href = "data:image/png;base64,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" type = "image/x-icon">
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <style type="text/css">
+         body {
+            background: linear-gradient(to bottom, #f1f1f1 0%, #ffffff 100%);
+            background-repeat: no-repeat;
+         }
+
+         /* img {
+            width: 100%;
+            height: auto;
+         } */
+         img {
+            max-width: 100%;
+            max-height: 100vh;
+            height: auto;
+         }
+      </style>
+   </head>
+   <body>
+      <h1 style="padding-top: 10px"> <center> YoloV3 Object Detection </center> </h1>
+      <h5><center> Object Detection through YoloV3 deployed using FastAPI and Docker on AWS EC2 </center></h5>
+      <form method="post" action="/v1/detect"  enctype="multipart/form-data">
+         <center> 
+         <!-- <label for="file">Select an image</label> -->
+         <!-- <button onclick="document.getElementById('files').click()">Upload Image</button> -->
+         <script type="text/javascript"> 
+            document.getElementById("files").setAttribute('value','Upload Image');
+          </script>
+         <input type="file" id="files"  name="file" onchange="javascript:form.submit()">
+         <!-- <input type="submit" value="Upload"> -->
+         </center>
+      </form>
+      <center>
+         <div class="container">
+            {% if error %}
+               <br><br>
+               <h3><center> {{ file }} </center></h3>
+            {% else %}
+               {% if predicted_img %}
+               <center>
+                  <a href=data:application/octet-stream;base64,{{predicted_img}} download="output.jpeg"><h4>Predicted Image. Click to download.<h4></a>
+                  <img src="data:image/jpeg;base64,{{ predicted_img | safe }}" alt="output image">
+               </center>
+               {% endif %}
+            {% endif%}
+         </div>
+      </center>
+   </body>
+</html>
